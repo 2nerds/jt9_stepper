@@ -29,7 +29,7 @@ doesn't know the carrier frequency.  The script currently writes
 
 Second, the script does not possess values for the drift, cycles, and
 jitter output fields.  The script writes zeroes for those output
-fields unless you give other values with the -d, -c, and -j
+fields unless you give other values with the `-d`, `-c`, and `-j`
 command-line options respectively.
 
 One possible immediate improvement might be to add another
@@ -39,13 +39,13 @@ value should be combined, if at all, with the jt9's output audio
 frequency in order to generate the output carrier frequency in the
 wspr spots file.
 
-Run the script with the '-h' command-line option to see usage info.
+Run the script with the `-h` command-line option to see usage info.
 
 
 ## Sample runs
 
 Here are some sample runs that show how the double-dash command-line
-option ("--") is used to separate script options from jt9 options:
+option (`--`) is used to separate script options from jt9 options.
 
 ### Example 1: no script options
 
